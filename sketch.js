@@ -14,6 +14,10 @@ function draw() {
 
   fill(0,255,0,100);
   rect(10,50,300,100);
+  textAlign(CENTER);
+  fill(255);
+  textSize(200);
+  text("uwu", width/2, height/2); // maru's addition!
 
 
 
