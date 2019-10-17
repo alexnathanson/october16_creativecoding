@@ -20,6 +20,7 @@ function draw() {
   text("uwu", width/2, height/2); // maru's addition!
   Shannon();
   les();
+  kristin();
 
 
 
@@ -53,4 +54,23 @@ function les(){
   fill(240, 234, 70);
   rect(795, 750, 10, 50);
   rect(795, 810, 10, 40);
+}
+
+function kristin(){
+  rect(210,300,100,10); // arm pointing
+  rect(200,300,10,100); // other arm
+
+  fill(255,0,0);
+  rect(220,360,5,100); // legs
+  rect(210,360,5,100);  // legs
+  fill(0,255,255);
+  rect(210,280,20,100); // body
+  fill(255,255,0);
+  ellipse(220,250,100,100);// head
+
+
+  fill(0);
+  ellipse(250,252,7,7);
+  ellipse(230,252,7,7);
+  rect(223,275,30,5); // mouth
 }
