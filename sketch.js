@@ -18,7 +18,8 @@ function draw() {
   fill(255);
   textSize(200);
   text("uwu", width/2, height/2); // maru's addition!
-
+  Shannon();
+  les();
 
 
 
@@ -35,3 +36,21 @@ function fractal(iter){
 	}
 }
 
+function Shannon(){
+ fill(255, 153, 0);
+ noStroke();
+ rect(width-300, height-300, 150,230, 10);
+ fill(207,124,0);
+ rect(width-300, height-300, 150, 30,);
+ fill(255, 153, 0);
+ rect(width-320, height-340, 190, 50,10);
+}
+
+function les(){
+  stroke(0);
+  fill(170, 170, 170);
+  quad(500, 750, 1100, 750, 1400, 850, 200, 850);
+  fill(240, 234, 70);
+  rect(795, 750, 10, 50);
+  rect(795, 810, 10, 40);
+}
