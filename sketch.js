@@ -20,7 +20,7 @@ function draw() {
   text("uwu", width/2, height/2); // maru's addition!
   Shannon();
   les();
-  kristin();
+  kristin(); // person pointing at marus addition
 
 
 
