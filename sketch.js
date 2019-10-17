@@ -21,7 +21,7 @@ function draw() {
   Shannon();
   les();
   kristin(); // person pointing at marus addition
-
+  jay();
 
 
 }
@@ -73,4 +73,10 @@ function kristin(){
   ellipse(250,252,7,7);
   ellipse(230,252,7,7);
   rect(223,275,30,5); // mouth
+}
+
+function jay(){
+  fill(random(0,255),random(0,255), random(0,255));
+  textSize(100);
+  text("epic G A M E R", 400, height-100);
 }
