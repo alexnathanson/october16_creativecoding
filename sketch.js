@@ -34,3 +34,4 @@ function fractal(iter){
 		fractal(iter);
 	}
 }
+
