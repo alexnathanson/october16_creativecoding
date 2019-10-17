@@ -22,6 +22,7 @@ function draw() {
   les();
   kristin(); // person pointing at marus addition
   jay();
+  annlie();
 
 
 }
@@ -79,4 +80,36 @@ function jay(){
   fill(random(0,255),random(0,255), random(0,255));
   textSize(100);
   text("epic G A M E R", 400, height-100);
+}
+
+function annlie() {
+   noFill();
+   stroke(3, 51, 142);
+   strokeWeight(5);
+   ellipse((width/2)+200, (height/2)+200, 200, 200);
+   
+   //inner circle
+   noStroke();
+   fill(255, 235, 127);
+   strokeWeight(0);
+   ellipse((width/2)+200, (height/2)+200, 170, 170);
+   
+   //nose
+   fill(238, 118, 33);
+   ellipse((width/2)+200, (height/2) + 15 + 200, 35, 35);
+   
+   //eyes
+   fill(3, 51, 142);
+   noStroke();
+   ellipse( (width/2) - 45 + 200, (height/2) +200 , 15, 35);
+   ellipse( (width/2) + 45 + 200, (height/2) +200, 15, 35);
+   
+   //mouth
+   noFill();
+   stroke(3, 51, 142);
+   strokeWeight(8);
+   curve( (width/2)- 45 + 200, (height/2) + 200, 
+          (width/2) - 45 + 200, (height/2) + 45 +200, 
+          (width/2) + 45 + 200, (height/2) + 45+200, 
+          (width/2) + 45 + 200, (height/2)+200);
 }
