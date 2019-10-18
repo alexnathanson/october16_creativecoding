@@ -23,6 +23,7 @@ function draw() {
   kristin(); // person pointing at marus addition
   jay();
   annlie();
+  haixin();
 
 
 }
@@ -112,4 +113,16 @@ function annlie() {
           (width/2) - 45 + 200, (height/2) + 45 +200, 
           (width/2) + 45 + 200, (height/2) + 45+200, 
           (width/2) + 45 + 200, (height/2)+200);
+}
+
+function haixin(){
+  
+  noStroke();
+  fill(0,random(0,255),0);
+  translate(width/2, height/2);
+  for (let i = 0; i < 3; i ++) {
+    ellipse(0, 0, 30, 100);
+    rotate(PI/2);
+  }
+
 }
