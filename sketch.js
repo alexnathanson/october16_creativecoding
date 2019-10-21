@@ -26,6 +26,7 @@ function draw() {
   haixin();
   jeremy();
   micah();
+  Luke();
 
 
 }
@@ -145,4 +146,17 @@ function micah() {
   ellipse(420, -850, 30, 30);
   ellipse(420, -950, 30, 30);
   rect(380, -900, 20, 10);
+}
+
+function Luke(){
+  push();
+  noStroke();
+  
+  fill(255,160,2);
+  ellipse(-40,740,205,200);
+  fill(249,166,2);
+  ellipse(-35,740,200,200);
+  
+  fill(255);
+pop();
 }
