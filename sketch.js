@@ -25,6 +25,7 @@ function draw() {
   annlie();
   haixin();
   jeremy();
+  micah();
 
 
 }
@@ -134,4 +135,14 @@ function jeremy(){
 
 	ellipse(150,0, 150,random(100));
 	
+}
+
+//adds face to green rect
+function micah() {
+  stroke(0);
+  fill(255);
+
+  ellipse(420, -850, 30, 30);
+  ellipse(420, -950, 30, 30);
+  rect(380, -900, 20, 10);
 }
