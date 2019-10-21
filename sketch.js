@@ -24,6 +24,7 @@ function draw() {
   jay();
   annlie();
   haixin();
+  jeremy();
 
 
 }
@@ -125,4 +126,12 @@ function haixin(){
     rotate(PI/2);
   }
 
+}
+
+function jeremy(){
+	noStroke();
+	fill(random(0,255));
+
+	ellipse(150,0, 150,random(100));
+	
 }
