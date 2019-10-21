@@ -6,7 +6,7 @@ function setup() {
   fractal(400);
   translate(0, 0);
 
-  
+
 }
 
 function draw() {
@@ -27,13 +27,13 @@ function draw() {
   jeremy();
   micah();
   Luke();
-
+  daniel();
 
 }
 
 function fractal(iter){
 	if(iter == 0){
-		 
+
 	}else{
 		ellipse(0, 0,iter*2,iter*.9);
 		rotate(5);
@@ -91,35 +91,35 @@ function annlie() {
    stroke(3, 51, 142);
    strokeWeight(5);
    ellipse((width/2)+200, (height/2)+200, 200, 200);
-   
+
    //inner circle
    noStroke();
    fill(255, 235, 127);
    strokeWeight(0);
    ellipse((width/2)+200, (height/2)+200, 170, 170);
-   
+
    //nose
    fill(238, 118, 33);
    ellipse((width/2)+200, (height/2) + 15 + 200, 35, 35);
-   
+
    //eyes
    fill(3, 51, 142);
    noStroke();
    ellipse( (width/2) - 45 + 200, (height/2) +200 , 15, 35);
    ellipse( (width/2) + 45 + 200, (height/2) +200, 15, 35);
-   
+
    //mouth
    noFill();
    stroke(3, 51, 142);
    strokeWeight(8);
-   curve( (width/2)- 45 + 200, (height/2) + 200, 
-          (width/2) - 45 + 200, (height/2) + 45 +200, 
-          (width/2) + 45 + 200, (height/2) + 45+200, 
+   curve( (width/2)- 45 + 200, (height/2) + 200,
+          (width/2) - 45 + 200, (height/2) + 45 +200,
+          (width/2) + 45 + 200, (height/2) + 45+200,
           (width/2) + 45 + 200, (height/2)+200);
 }
 
 function haixin(){
-  
+
   noStroke();
   fill(0,random(0,255),0);
   translate(width/2, height/2);
@@ -135,7 +135,7 @@ function jeremy(){
 	fill(random(0,255));
 
 	ellipse(150,0, 150,random(100));
-	
+
 }
 
 //adds face to green rect
@@ -151,12 +151,22 @@ function micah() {
 function Luke(){
   push();
   noStroke();
-  
+
   fill(255,160,2);
   ellipse(-40,740,205,200);
   fill(249,166,2);
   ellipse(-35,740,200,200);
-  
+
   fill(255);
 pop();
+}
+
+function daniel(){
+
+  noStroke();
+  fill(120,130,255);
+  rect(360,420, 100, 100);
+  fill(255,130,120);
+  text('hi', 400, 500);
+
 }
