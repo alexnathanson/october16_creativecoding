@@ -28,6 +28,7 @@ function draw() {
   micah();
   Luke();
   daniel();
+  Ahmed();
 
 }
 
@@ -169,4 +170,9 @@ function daniel(){
   fill(255,130,120);
   text('hi', 400, 500);
 
+}
+
+function Ahmed(){
+  rect(700, 600, 10, 20);
+  rect(805, 510, 20, 20);
 }
