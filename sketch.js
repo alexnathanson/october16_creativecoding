@@ -184,3 +184,9 @@ function Leo(){
   fill(820,20,60);
   ellipse(335,710,25,50);
 }
+function Jelani(){
+  fill(0,200,0);
+  let randX=random(-displayWidth,displayWidth);
+  let randY=(random(-displayHeight,displayHeight));
+  rect(randX,randY,10,10);
+}
