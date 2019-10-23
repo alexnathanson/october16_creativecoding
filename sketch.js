@@ -29,6 +29,7 @@ function draw() {
   Luke();
   daniel();
   Ahmed();
+  Leo();
 
 }
 
@@ -175,4 +176,11 @@ function daniel(){
 function Ahmed(){
   rect(700, 600, 10, 20);
   rect(805, 510, 20, 20);
+}
+
+function Leo(){
+  fill(0,78,0);
+  triangle(300, 670, 300, 750, 400, 710);
+  fill(820,20,60);
+  ellipse(335,710,25,50);
 }
