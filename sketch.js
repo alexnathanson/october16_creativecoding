@@ -190,3 +190,6 @@ function Jelani(){
   let randY=(random(-displayHeight,displayHeight));
   rect(randX,randY,10,10);
 }
+function Aaisha(){
+  ellipse(100,200, 50,50);
+}
